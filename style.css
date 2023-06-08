@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 210mm;
+  height: 297mm; 
+  margin: 20mm;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.code {
+  background-color: rgba(136, 6, 6, 0.614);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(140, 255, 0);
+}
+
+.row1 {
+  height: 30vh;
+  background-color: #000000;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  color: white;
+}
+
+.row2 {
+  height: 35vh;
+  background-color: white;
+}
+
+.image-description {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+
+.author {
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 14px;
+  color: black;
+}
+
+.image {
+  max-width: 36%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.row3 {
+  text-align: justify;
+  height: 50vh;
+  background-color: #000000;
+  color: white;
+}
+
+.row3-heading {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.paragraph {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  text-align: justify;
+  max-width: 80%;
+}
